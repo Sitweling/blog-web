@@ -34,9 +34,24 @@
     margin-top: 4em !important;
     margin-bottom: 4em !important;
 }
-.m-margin-tb-large{
-    margin-top: 3em !important;
-    margin-bottom: 3em !important;
+.m-margin-tb-small{
+    margin-top: 1em !important;
+    margin-bottom: 1em !important;
+}
+
+.m-margin-tb-tiny{
+    margin-top: 0.5em !important;
+    margin-bottom: 0.5em !important;
+}
+
+.m-margin-tb-big{
+    margin-top: 2em !important;
+    margin-bottom: 2em !important;
+}
+
+.m-margin-tb-mini{
+    margin-top: 0.3em !important;
+    margin-bottom: 0.3em !important;
 }
 
 .m-margin-top-small{
@@ -95,6 +110,12 @@
   color: #333 !important;
 }
 
+/*---------shadow---------*/
+.m-shadow-small{
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2) !important;
+    -webkit-box-shadow: 0 4px 8px rgba(0,0,0,0.2) !important;
+}
+
 /*--------手机端--------*/
 
 .m-mobile-show{
@@ -109,6 +130,10 @@
         display: block !important;
     }
     .m-padded-lr-responsive{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .m-mobile-lr-clear{
         padding-left: 0 !important;
         padding-right: 0 !important;
     }
