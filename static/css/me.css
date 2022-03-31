@@ -67,11 +67,25 @@
     padding-right: 4em !important;
 }
 
+.m-padded{
+   padding: 1em !important;
+}
+
 /*----------position-----------*/
 .m-top-right{
     position: absolute;
     top: 0;
     right: 0;
+}
+
+.m-fixed {
+    position: fixed !important;
+    z-index: 10 !important;
+}
+
+.m-right-bottom {
+    bottom: 5em !important;
+    right: 0 !important;
 }
 
         /*字体*/
